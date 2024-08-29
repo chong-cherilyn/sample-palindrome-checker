@@ -1,0 +1,59 @@
+:root {
+  --white: #FFFFFF;
+  --navy: #000080;
+  --crimson: #dc143c;
+  --gray: #808080;
+}
+
+* {
+  font-family: Noto Sans, sans-serif;
+  color: var(--white);
+  background: var(--navy);
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+h2 {
+  color: var(--crimson);
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+div {
+  margin: 20px;
+}
+
+input {
+  text-align: left;
+  font-size: 1rem;
+  color: var(--navy);
+  height: 50px;
+  width: 20rem;
+  background: var(--white);
+  text-indent: 5px;
+  border-radius: 8px;
+}
+
+button {
+  display: block;
+  font-size: 1.25rem;
+  height: 3rem;
+  width: 6rem;
+  background: var(--crimson);
+  margin: 20px auto;
+  border-radius: 8px;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background-color: var(--gray);
+}
